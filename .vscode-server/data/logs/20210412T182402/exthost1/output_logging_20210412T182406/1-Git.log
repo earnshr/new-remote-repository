@@ -1,0 +1,42 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/earnshr/Development/code/phase-0-completing-assignments
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/earnshr/Development/code/phase-0-completing-assignments/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :.github/workflows/canvas-sync-prework.yml
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/.github/workflows/canvas-sync-prework.yml
+> git cat-file -s 07fa13e1a20e10e43b229ca2e30f9de24c4420ff
+> git check-ignore -v -z --stdin
+> git show --textconv :test/index-test.js
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/test/index-test.js
+> git cat-file -s 218657a59c29a85f67784d1b7c157dd069b21608
+> git show --textconv :.canvas
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/.canvas
+> git cat-file -s 84b3448fe610870f618c15f0729c984e394a1cea
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/.gitignore
+> git cat-file -s eaf1b33eb5b5a366fde107ff057ce2e40c3a7946
+> git show --textconv :.learn
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/.learn
+> git cat-file -s fbe474ad100540e1382e5e1de850de0207b9fffb
+> git show --textconv :CONTRIBUTING.md
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/CONTRIBUTING.md
+> git cat-file -s 884a03abfa21ed53e468ee19ee19ee58ee412ce2
+> git show --textconv :LICENSE.md
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/LICENSE.md
+> git cat-file -s fbd16f948ec894632fb9e66eff2f5590ee3ff5e8
+> git show --textconv :package.json
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/package.json
+> git cat-file -s 22fb8f9c4a8454ab4b5eecaace4b1909a09375e8
+> git show --textconv :README.md
+> git ls-files --stage -- /home/earnshr/Development/code/phase-0-completing-assignments/README.md
+> git cat-file -s 224bdbe58b9cd9d5da56ba6dc111823ae357d408
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/earnshr/Development/code/phase-0-completing-assignments/README.md
